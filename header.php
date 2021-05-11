@@ -1,11 +1,16 @@
-<h1>歡迎光臨何敏煌的網站</h1>
-<a href='/php-20210504/' type="button" class="btn btn-outline-primary btn-sm">HOME</a>
-<a href='https://cla.nkust.edu.tw' type="button" class="btn btn-outline-primary btn-sm">博雅中心</a>
-<a href='http://tzukuan.nkust.org' type="button" class="btn btn-outline-primary btn-sm">計畫網站</a>
-<a href='/php-20210504/videoindex.php' type="button" class="btn btn-outline-primary btn-sm">我的影片</a>
-<select onchange='location.href="/php-20210504/"+this.value'>
-	<option value="0323-1.php">請選擇要執行練習</option>
-	<option value="0323-1.php">0323-1</option>
-	<option value="0330-1.php">0330-1</option>
-</select>
-<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>何敏煌的練習網頁</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<style>
+		body {
+			  font-family: 微軟正黑體;
+		}
+	</style>
+</head>
+<body>
